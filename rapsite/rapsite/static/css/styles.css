@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body {
+    background-color: #11110b;
+    color: black;
+    scroll-behavior: smooth;
+}
+
+nav{
+  /* padding: 0 !important; */
+}
+
+ul {
+    display: inline;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 3.5rem;
+    color: #DAA520;
+}
+
+li a:hover {
+    background-color: white;
+    color: #DAA520;
+    text-decoration: none;
+}
+
+#main-nav{
+  z-index: 3;
+}
+
+.splashscreen{
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  background: url("../css/rappermic.jpg") no-repeat center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: center cover;
+  background-position: center top;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+.videosplash{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /* margin: 0 !important; */
+  overflow-y: hidden;
+  position: relative;
+}
+
+.video_overlay{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #225470;
+  z-index: 2;
+  opacity: .85;
+  /* margin: 0 !important; */
+  overflow-x: hidden;
+}
+
+.video_text{
+  top: 50%;
+  left: 40%;
+}
+
+video{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  bottom: 10%;
+  background: rgba(0, 0, 0, 0);
+  transform: translate(-50%, -50%);
+  /* min-width: 100%;
+  min-height: 100%; */
+  width: 100%;
+  z-index: 1;
+
+}

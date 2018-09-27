@@ -1,18 +1,39 @@
 <!DOCTYPE html>
 <html>
+{% load static %}
     <head>
         <meta charset="utf-8" >
 		    <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Adam H's Portfolio</title>
+        <title>Poetic Savior</title>
         <!-- Font-->
         <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+
         <!--Custom CSS files-->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/styles.css">
-		    <link rel="stylesheet" href="css/socicon/socicon/fonts/socicon.css">
+        <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- App CSS files -->
+        <link rel="stylesheet" href="{% static 'css/styles.css' %}" type="text/css" />
+
+        <!-- <link rel="stylesheet" media="screen and (max-width:450px)" href="css/mobile.css"> -->
+
+        <meta name="viewport" content="width=device-width,initial-scale=1">
     </head>
     <body>
-      Home page
+      <div class="col-md-6">
+
+      </div>
+			<nav id="main-nav" class="col-md-6">
+        <ul class="mobile horizontal-list balance_4 top menu-length-8">
+          <li class="top selected"><div><a class="top" href="/home">Home</a></div></li>
+          <li class="top"><div><a class="top no-pjax" href="/about">About</a></div></li>
+          <li class="top"><div><a class="top no-pjax" href="/about">Music</a></div></li>
+          <li class="top"><div><a class="top no-pjax" href="/about">Blog</a></div></li>
+          <li class="top"><div><a class="top no-pjax" href="/about">Store</a></div></li>
+        </ul>
+      </nav>
       {% block content %}
       {% endblock %}
     </body>
