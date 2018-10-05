@@ -21,7 +21,6 @@ body {
 
 header{
   height: 100vh;
-
 }
 
 nav{
@@ -56,8 +55,6 @@ li a:hover {
 }
 
 
-
-
 .splashscreen{
   height: 100vh;
   width: 100vw;
@@ -74,11 +71,20 @@ li a:hover {
   z-index: -1;
 }
 
+.splashtext{
+  color: #DAA520;
+  font-family: "Great Vibes", cursive;
+  font-size: 10em;
+  padding-top: 300px;
+ }
+
+
+
+
 .aboutme{
   height: 100vh;
   width: 100vw;
   overflow-x: hidden;
-  background-color: blue;
   background: url("../css/splashscreen.jpg") no-repeat center center;
   background-size: cover;
   -webkit-background-size: cover;
@@ -86,6 +92,7 @@ li a:hover {
   background-position: center top;
   display: flex;
   justify-content: center;
+  z-index: -1;
 }
 
 .headshot{
