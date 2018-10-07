@@ -79,13 +79,13 @@ li a:hover {
  }
 
 
-
-
 .aboutme{
   height: 100vh;
   width: 100vw;
   overflow-x: hidden;
-  background: url("../css/splashscreen.jpg") no-repeat center center;
+  background-color: white;
+  opacity: .8;
+  /* background: url("../css/splashscreen.jpg") no-repeat center center; */
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: center cover;
@@ -94,6 +94,39 @@ li a:hover {
   justify-content: center;
   z-index: -1;
 }
+
+.aboutheader {
+  color: #DAA520;
+  font-family: 'Rouge Script', cursive;
+  font-size: 130px; font-weight: normal;
+  line-height: 48px;
+  padding-top: 200px;
+  text-align: center;
+}
+
+ .aboutheader2 {
+   color: #DAA520;
+   font-family: "Great Vibes", cursive;
+   font-size: 10em;
+   line-height: 160px;
+   font-weight: normal;
+   margin-bottom: 0px;
+   margin-top: 40px; text-align: center; text-shadow: 0 1px 1px #fff;
+   position: absolute;
+ }
+
+ .aboutme_headshot{
+   margin-top: 15%;
+   margin-right: 50%;
+    /* position: absolute;
+    display: block;
+    text-align: left; */
+ }
+
+ .rapperheadshot{
+    height: 300px;
+    width: 300px;
+ }
 
 .headshot{
   height: 100vh;

@@ -27,17 +27,7 @@
 
 
 <div class="aboutme">
-    <div class="aboutheader2">
-      Rapper behind the Mic
-    </div>
 
-    <div class="aboutme_headshot">
-      <img class="rapperheadshot" src="{% static  '/css/rapperheadshot.jpeg' %}" />
-    </div>
-
-    <div class="aboutme_blurb">
-
-    </div>
 </div>
 
 <div class="headshot">
