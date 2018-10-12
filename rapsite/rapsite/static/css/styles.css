@@ -111,16 +111,27 @@ li a:hover {
    line-height: 160px;
    font-weight: normal;
    margin-bottom: 0px;
-   margin-top: 40px; text-align: center; text-shadow: 0 1px 1px #fff;
+   margin-top: 40px;
+   text-align: center;
+   text-shadow: 0 1px 1px #fff;
    position: absolute;
  }
 
  .aboutme_headshot{
    margin-top: 15%;
    margin-right: 50%;
-    /* position: absolute;
-    display: block;
-    text-align: left; */
+   position: absolute;
+   display: block;
+   text-align: left;
+ }
+
+ .aboutme_blurb{
+   margin-left: 30%;
+   margin-top: 15%;
+   width: 50%;
+   position: relative;
+   word-wrap: break-word;
+   text-overflow: ellipsis;
  }
 
  .rapperheadshot{
@@ -180,5 +191,14 @@ video{
   min-height: 100%; */
   width: 100%;
   z-index: 1;
+
+}
+
+.aboutpage{
+  background: #393939;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+
 
 }
