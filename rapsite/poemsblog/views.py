@@ -4,4 +4,4 @@ from django.http import Http404
 
 
 def bloghome(request):
-    return render(request, 'bloghome.html', {})
+    return render(request, 'bloghome.html', {'poems': poems})
