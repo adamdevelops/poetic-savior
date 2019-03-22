@@ -10,3 +10,8 @@ class Poem(models.Model):
 
     def __str__(self):
         return self.title
+
+    def snippet(self):
+        if self.body:
+            return self.body[:50] + '... (Read more)'
+        return self.body

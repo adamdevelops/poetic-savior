@@ -1,10 +1,10 @@
 <h1>Blog home</h1>
 
 {% for poem in poems %}
-<h4>{{poem.title}}</h4>
-<h4>{{poem.slug}}</h4>
-<h4>{{poem.body}}</h4>
-<hr />
 
+  <h4>{{poem.title}}</h4>
+  <h4>{{poem.slug}}</h4>
+  <h4>{{poem.snippet}}</h4>
+  <hr />
 
 {% endfor %}
