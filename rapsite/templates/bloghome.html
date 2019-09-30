@@ -2,9 +2,11 @@
 
 {% for poem in poems %}
 
-  <h4>{{poem.title}}</h4>
+  <h4> <a href="">{{poem.title}}</a></h4>
   <h4>{{poem.slug}}</h4>
   <h4>{{poem.snippet}}</h4>
   <hr />
 
 {% endfor %}
+
+<!-- {% url 'detail' pk=post.pk %} -->
